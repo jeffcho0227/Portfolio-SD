@@ -4,7 +4,7 @@ import style from './Button.scss';
 const Button = props => {
   return (
     <button
-      className={style[props.butnType]}>{props.children}</button>
+      className={[style.btn, style[props.btnType]].join(' ')}>{props.children}</button>
   )
 };
 
