@@ -1,6 +1,7 @@
 import React from 'react';
 import NavigationItems from '../NavigationItems/NavigationItems.jsx';
 import ProfilePic from '../../AboutMe/Picture/ProfilePic.jsx';
+import Button from '../../UI/Button/Button.jsx';
 import style from './SideDrawer.scss';
 
 const SideDrawer = props => {
@@ -12,6 +13,9 @@ const SideDrawer = props => {
 
   return (
     <div className={attachedStyle.join(' ')}>
+      <Button 
+        btnType='SideDrawerClose'
+        click={props.handleSideDrawerClick}>X</Button>
       <NavigationItems />
       <ProfilePic />
     </div>

@@ -27,7 +27,8 @@ class AboutMe extends React.Component {
           <Toolbar 
             handleSideDrawerClick={this.handleSideDrawerClick}/>
           <SideDrawer 
-            showSideDrawer={this.state.showSideDrawer}/>
+            showSideDrawer={this.state.showSideDrawer}
+            handleSideDrawerClick={this.handleSideDrawerClick}/>
           <Backdrop 
             showSideDrawer={this.state.showSideDrawer}
             handleSideDrawerClick={this.handleSideDrawerClick}/>

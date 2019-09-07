@@ -6,7 +6,7 @@ import style from './Toolbar.scss';
 const Toolbar = props => {
   return (
     <div>
-      <div>
+      <div className={style.DrawerToggleContainer}>
         <DrawerToggle handleSideDrawerClick={props.handleSideDrawerClick}/>
       </div>
       <div className={style.DesktopOnly}>
