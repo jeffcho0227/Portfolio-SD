@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AboutMe from './containers/AboutMe/AboutMe.jsx';
 import Layout from './components/Layout/Layout.jsx';
+import Skills from './containers/Skills/Skills.jsx';
 import style from './App.scss';
 
 class App extends Component {
@@ -9,14 +10,7 @@ class App extends Component {
       <div>
         <Layout>
         <AboutMe />
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
-        <div>.</div>
+        <Skills />
         <div>test</div>
         </Layout>
       </div>
