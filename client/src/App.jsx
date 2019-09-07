@@ -9,9 +9,8 @@ class App extends Component {
     return(
       <div>
         <Layout>
-        <AboutMe />
-        <Skills />
-        <div>test</div>
+          <AboutMe />
+          <Skills />
         </Layout>
       </div>
     )
