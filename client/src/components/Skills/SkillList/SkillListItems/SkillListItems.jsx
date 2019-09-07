@@ -1,5 +1,5 @@
 import React from 'react';
-import { PromiseProvider } from 'mongoose';
+import style from './SkillListItems.scss';
 
 const SkillListItems = props => {
   return (

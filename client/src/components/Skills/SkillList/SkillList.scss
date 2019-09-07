@@ -1,0 +1,27 @@
+.SkillList {
+  margin: 30px auto;
+  padding: 0px 0px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(155, 150, 150, 0.9);
+  // justify-content: space-around;
+
+  h4 {
+    margin: 15px auto;
+    padding: 20px 0px;
+    border-bottom: 3px solid red;
+  }
+
+  ul {
+    margin: 5px auto;
+    text-align: center;
+  }
+
+  .separater {
+    width: 10%;
+    height: 1px;
+    background-color: red;
+    margin: 5px;  
+    justify-content: center;
+  }
+} 

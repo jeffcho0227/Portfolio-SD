@@ -11,8 +11,10 @@ const PersonalDescription = () => {
         <h4 className={style.title}>SOFTWARE DEVELOPER</h4>
         <p className={style.description}>A full-stack web debeloper with a strong passion of building user centric UI/UX applications</p>
       </article>
-      <Button btnType="AboutMeBtn">VIEW MY WORK</Button>
-      <Button btnType="AboutMeBtn">CONTACT ME</Button>
+      <div className={style.aboutMeBtns}>
+        <Button className={style.aboutMeBtn} btnType="AboutMeBtn">VIEW MY WORK</Button>
+        <Button className={style.aboutMeBtn} btnType="AboutMeBtn">CONTACT ME</Button>
+      </div>
     </div>
   )
 };
