@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './AboutMe.scss';
 import PersonalDescription from '../../components/AboutMe/Description/PersonalDescription.jsx';
-import ProfilePic from '../../components/AboutMe/Picture/ProfilePic.jsx';
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar.jsx';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer.jsx';
 import Backdrop from '../../components/UI/Backdrop/Backdrop.jsx';
@@ -33,7 +32,7 @@ class AboutMe extends React.Component {
             showSideDrawer={this.state.showSideDrawer}
             handleSideDrawerClick={this.handleSideDrawerClick}/>
         <PersonalDescription />
-        <ProfilePic />
+        
       </div>
     )
   }
