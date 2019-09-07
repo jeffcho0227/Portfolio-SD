@@ -1,4 +1,7 @@
 node_modules/
+.DS_Store
+client/dist/bundle.js
 
 ##image
 client/dist/802c0dd7db9bc634b5408f3978143f83.jpg
+client/dist/31664fca7bf42aa1919964e9a275134e.JPG

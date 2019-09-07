@@ -1,3 +1,6 @@
 .AboutMeContainer {
-  background: url('../../../dist/assets/images/laptop.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url('../../../dist/assets/images/sky.JPG');
+  background-size: cover;
+  background-position: 75% 50%;
+  height: 100vh;
 }
