@@ -8,6 +8,7 @@ const Button = props => {
   } else {
     action = () => console.log('testing!!');
   }
+  
   return (
     <button
       className={[style.btn, style[props.btnType]].join(' ')}

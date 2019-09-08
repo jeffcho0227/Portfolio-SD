@@ -18,7 +18,8 @@ class ContactComp extends Component {
         <h2>LETS TALK!</h2>
         <p>I'm always up to a challenge and interested in hearing different ideas. Don't be shy and lets talk tech!!!</p>
         <div className={style.contactMeBtnWrapper}>
-          <Button btnType="contactMe"><a href="mailto:jeffcho0227@gmail.com">CONTACT ME</a></Button>
+          {/* <Button btnType="contactMe" link="mailto:jeffcho0227@gmail.com">CONTACT ME</Button> */}
+          <a href="mailto:jeffcho0227@gmail.com">CONTACT ME</a>
         </div>
         <div className={style.socialMediaBtns}>
           <Button btnType="socialMedia"><FontAwesomeIcon icon={["fab", "linkedin"] } size='3x' color="white"/></Button>
