@@ -9,8 +9,8 @@ const AppImages = props => {
   console.log(props)  
   return (
     <div className={style.AppImagesContainerWrapper}>
-      <Button btnType="AppImgLeft"><FontAwesomeIcon icon={faArrowLeft} size="lg"/></Button>
-      <Button btnType="AppImgRight"><FontAwesomeIcon icon={faArrowRight} size="lg"/></Button>
+      {/* <Button btnType="AppImgLeft"><FontAwesomeIcon icon={faArrowLeft} size="lg"/></Button>
+      <Button btnType="AppImgRight"><FontAwesomeIcon icon={faArrowRight} size="lg"/></Button> */}
       <div className={style.AppImagesContainer}>
         {props.AppImages.map((appimg, idx) => {
           return <AppImg appimg={appimg} key={idx}/>

@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillListItems from './SkillListItems/SkillListItems.jsx';
 import style from './SkillList.scss';
+import SecLine from '../../UI/SecLine/SecLine.jsx';
 
 const SkillList = props => {
 
@@ -13,6 +14,7 @@ const SkillList = props => {
           return <SkillListItems skill={skill} key={idx}/>
         })}
       </ul>
+      <SecLine />
     </div>
   )
 };

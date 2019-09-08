@@ -1,13 +1,29 @@
 .ContactCompContainer {
+  
   color: white;
   h2 {
     font-size: 300%;
-    margin: 10px;
+    margin: 20px;
     text-align: right;
   }
   p {
-    font-size: 150%;
+    font-size: 125%;
     margin: 10px 0px;
     padding: 10px 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+    
+  }
+
+  .socialMediaBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .contactMeBtnWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
   }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import AppImages from './AppImges/AppImages.jsx';
 import AppDescrip from './AppDescrip/AppDescrip.jsx';
 import TechStack from './TechStack/TechStack.jsx';
+import SecLine from '../UI/SecLine/SecLine.jsx';
 import style from './ApplicationComp.scss';
 
 const ApplicationComp = props => {
