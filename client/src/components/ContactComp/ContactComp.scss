@@ -15,7 +15,7 @@
     
   }
 
-  a {
+  .contactMe_a {
     text-decoration: none;
     color: white;
     border: 1px solid white;
@@ -27,6 +27,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
+    .socialMedia_a {
+      text-decoration: none;
+      margin: 20px 10px;
+      padding: 20px 15px;
+    }
   }
 
   .contactMeBtnWrapper {
