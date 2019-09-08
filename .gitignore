@@ -1,6 +1,8 @@
 node_modules/
 .DS_Store
 client/dist/bundle.js
+client/dist/assets/Data/
+client/dist/assets/fonts/
 
 ##image
 client/dist/802c0dd7db9bc634b5408f3978143f83.jpg
@@ -13,4 +15,14 @@ client/dist/assets/images/mypic.jpg
 
 client/dist/3da72288db84ec01a45d9812a989c990.JPG
 
-client/dist/assets/fonts/
+client/dist/assets/images/SDC1.png
+
+client/dist/assets/images/SDC2.png
+
+client/dist/b98d871c06c9b8212ca381eebf05694e.png
+
+client/dist/b5fa003d492105096642a4fa9eae6343.png
+
+client/dist/2071128b91db3acdba073a050120a526.jpeg
+
+client/dist/assets/images/FEC1.jpeg

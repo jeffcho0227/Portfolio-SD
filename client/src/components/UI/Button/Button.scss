@@ -10,6 +10,20 @@
   margin: 20px auto;  
 }
 
-.SideDrawerClose {
+.AppImgLeft {
+  width: 9%;
+  height: 9%;
+  z-index: 100;
+  position: absolute;
+  top: 45%;
+  left: -4%;
+}
 
+.AppImgRight {
+  width: 9%;
+  height: 9%;
+  z-index: 100;
+  position: absolute;
+  top: 44%;
+  right: -4%;
 }
