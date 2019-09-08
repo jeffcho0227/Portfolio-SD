@@ -4,11 +4,11 @@ import NavigationItem from './NavigationItem/NavigationItem.jsx';
 const NavigationItems = props => {
   return (
     <ul>
-      <NavigationItem>HOME</NavigationItem>
-      <NavigationItem>ABOUT</NavigationItem>
-      <NavigationItem>APPLICATIONS</NavigationItem>
-      <NavigationItem>SKILLS</NavigationItem>
-      <NavigationItem>CONTACT</NavigationItem>
+      <NavigationItem btnType={props.btnType}>HOME</NavigationItem>
+      <NavigationItem btnType={props.btnType}>ABOUT</NavigationItem>
+      <NavigationItem btnType={props.btnType}>APPLICATIONS</NavigationItem>
+      <NavigationItem btnType={props.btnType}>SKILLS</NavigationItem>
+      <NavigationItem btnType={props.btnType}>CONTACT</NavigationItem>
     </ul>
   )
 }

@@ -2,10 +2,10 @@ import React from 'react';
 import ContactComp from '../../components/ContactComp/ContactComp.jsx';
 import style from './Contact.scss';
 
-const Contact = () => {
+const Contact = (props) => {
   return (
     <div className={style.ContactContainer}>
-      <ContactComp />
+      <ContactComp scrollToTop={props.scrollToTop}/>
     </div>
   )
 };

@@ -16,8 +16,14 @@ const SideDrawer = props => {
       <Button 
         btnType='SideDrawerClose'
         click={props.handleSideDrawerClick}>X</Button>
-      <NavigationItems />
-      <ProfilePic />
+      <NavigationItems btnType='sideDrawer'/>
+      {/* <ProfilePic /> */}
+      <span className={style.logo1}>
+        <span className={style.logo2}></span>
+
+      </span>
+      <span className={style.logo3}></span>
+      <span className={style.logo4}></span>
     </div>
   )
 };
