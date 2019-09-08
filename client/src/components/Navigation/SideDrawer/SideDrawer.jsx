@@ -15,15 +15,10 @@ const SideDrawer = props => {
     <div className={attachedStyle.join(' ')}>
       <Button 
         btnType='SideDrawerClose'
-        click={props.handleSideDrawerClick}>X</Button>
-      <NavigationItems btnType='sideDrawer'/>
-      {/* <ProfilePic /> */}
-      <span className={style.logo1}>
-        <span className={style.logo2}></span>
-
-      </span>
-      <span className={style.logo3}></span>
-      <span className={style.logo4}></span>
+        click={props.handleSideDrawerClick}><p>X</p></Button>
+      <NavigationItems 
+        btnType='sideDrawer'
+        closeSideDrawer={props.handleSideDrawerClick}/>
     </div>
   )
 };

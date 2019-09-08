@@ -1,15 +1,16 @@
 import React from 'react';
 import NavigationItem from './NavigationItem/NavigationItem.jsx';
+import style from './NovigationItems.scss';
 
 const NavigationItems = props => {
   return (
-    <ul>
-      <NavigationItem btnType={props.btnType}>HOME</NavigationItem>
-      <NavigationItem btnType={props.btnType}>ABOUT</NavigationItem>
-      <NavigationItem btnType={props.btnType}>APPLICATIONS</NavigationItem>
-      <NavigationItem btnType={props.btnType}>SKILLS</NavigationItem>
-      <NavigationItem btnType={props.btnType}>CONTACT</NavigationItem>
-    </ul>
+    <div className={style.NavigationItemsContainer}>
+      <NavigationItem btnType={props.btnType} click={props.closeSideDrawer} position="">HOME</NavigationItem>
+      <NavigationItem btnType={props.btnType} click={props.closeSideDrawer} position="">ABOUT</NavigationItem>
+      <NavigationItem btnType={props.btnType} click={props.closeSideDrawer} position="Applications">APPLICATIONS</NavigationItem>
+      <NavigationItem btnType={props.btnType} click={props.closeSideDrawer} position="Skills">SKILLS</NavigationItem>
+      <NavigationItem btnType={props.btnType} click={props.closeSideDrawer} position="contactMe">CONTACT ME</NavigationItem>
+    </div>
   )
 }
 

@@ -20,7 +20,7 @@ class AboutMe extends React.Component {
       return {
         showSideDrawer: !prevState.showSideDrawer
       }
-    });
+    }, () => console.log(this.state));
   }
   render() {
     return (
