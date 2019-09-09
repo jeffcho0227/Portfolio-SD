@@ -1,5 +1,13 @@
-img {
+.appImg {
   width: 40vh;
   height: 40vh;
   transform: translateY(-100%);
+}
+
+@media (min-width: 500px) {
+  .appImg {
+    width: 50vh;
+    height: 50vh;
+    transform: translateY(-100%);
+  }
 }

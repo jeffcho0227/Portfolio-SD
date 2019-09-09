@@ -10,3 +10,11 @@
   // border: 1px solid black;
   overflow: hidden;
 }
+
+@media (min-width: 500px) {
+  .AppImagesContainerWrapper {
+    width: 48vh;
+    height: 48vh;
+    float: left;
+  }
+}

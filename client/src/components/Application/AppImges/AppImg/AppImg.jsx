@@ -3,7 +3,7 @@ import style from './AppImg.scss';
 
 const AppImg = props => {
   return (
-    <img src={props.appimg} alt="system design picture"/>
+    <img className={style.appImg} src={props.appimg} alt="system design picture"/>
   )
 }
 

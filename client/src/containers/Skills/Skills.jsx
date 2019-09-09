@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillList from '../../components/Skills/SkillList/SkillList.jsx';
 import TitleBlock from '../../components/UI/TitleBlock/TitleBlock.jsx';
+import style from './Skills.scss';
 
 const Skills = props => {
   const FrontEndSkills = [`JavaScript (ES5 and ES6)`, `HTML5`, `CSS3`, `CSS Modules`, `React`, `Redux`, `React Native`];
@@ -11,10 +12,12 @@ const Skills = props => {
   return (
     <div>
       <TitleBlock>WHAT DO I KNOW!?!?</TitleBlock>
-      <SkillList subject='FRONT-END' list={FrontEndSkills}/>
-      <SkillList subject='BACK-END' list={BackEndSkills}/>
-      <SkillList subject='DEV TOOLS' list={DevTools}/>
-      <SkillList subject='TESTING' list={Testing}/>
+      <div className={style.SkillsContainer}>
+        <SkillList subject='FRONT-END' list={FrontEndSkills}/>
+        <SkillList subject='BACK-END' list={BackEndSkills}/>
+        <SkillList subject='DEV TOOLS' list={DevTools}/>
+        <SkillList subject='TESTING' list={Testing}/> 
+      </div>
     </div>
   )
 };
