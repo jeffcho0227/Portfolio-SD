@@ -3,6 +3,7 @@ import Button from '../../../UI/Button/Button.jsx';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const NavigationItem = props => {
+  console.log(props, 'target')
   return (
       <Button btnType='NavItem' 
               >

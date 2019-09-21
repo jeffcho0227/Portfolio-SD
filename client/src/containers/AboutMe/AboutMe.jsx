@@ -31,6 +31,7 @@ class AboutMe extends React.Component {
             showSideDrawer={this.state.showSideDrawer}
             handleSideDrawerClick={this.handleSideDrawerClick}/>
           <Backdrop 
+            type='sideDrawer'
             showSideDrawer={this.state.showSideDrawer}
             handleSideDrawerClick={this.handleSideDrawerClick}/>
         <PersonalDescription />

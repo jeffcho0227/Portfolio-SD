@@ -1,0 +1,52 @@
+@mixin frontBackPositions {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.ApplicationCardBack {
+  @include frontBackPositions;
+  background-color: rgba(218, 223, 225, 1);
+  color: black;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .description {
+    padding: 15px 5px;
+  }
+
+  .techStack {
+    padding: 15px 5px;
+  }
+  
+  .atagContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    background-color: #f44336;
+    color: white;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+} 
+
+@media (min-width: 500px) {
+  .description {
+    padding: 15px 5px;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .techStack {
+    padding: 15px 5px;
+    margin: 0px auto;
+  }
+}

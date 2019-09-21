@@ -1,10 +1,8 @@
 import React from 'react';
 
-const TechItem = props => {
+const TechItem = ({skill}) => {
   return (
-    <li>
-      {props.item}
-    </li>
+    <span> {skill} |</span>
   )
 };
 

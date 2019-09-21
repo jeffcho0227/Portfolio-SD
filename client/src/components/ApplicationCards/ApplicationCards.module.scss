@@ -1,0 +1,47 @@
+@mixin frontBackPositions {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.ApplicationCardContainer {
+  margin: 30px auto;
+  background-color: transparent;
+  width: 350px;
+  height: 300px;
+  // border: 1px solid black;
+  perspective: 1000px;
+
+  .ApplicationCardInnerWrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+    &:hover {
+      transform: rotateY(180deg);
+    }
+
+    // .ApplicationCardFront {
+    //   @include frontBackPositions;
+    //   background-color: #bbb;
+    //   color: black;
+    // }
+
+    // .ApplicationCardBack {
+    //   @include frontBackPositions;
+    //   background-color: dodgerblue;
+    //   color: white;
+    //   transform: rotateY(180deg);
+    // }
+  }
+}
+
+@media (min-width: 500px) {
+  .ApplicationCardContainer {
+    width: 750px;
+    height: 500px;
+  }
+}

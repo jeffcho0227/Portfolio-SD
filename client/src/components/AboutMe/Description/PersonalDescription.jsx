@@ -15,10 +15,10 @@ const PersonalDescription = () => {
       </article>
       <div className={style.aboutMeBtns}>
         <Button className={style.aboutMeBtn} btnType="AboutMeBtn">
-          <Link activeClass="active" to="Applications" spy={true} smooth={true} duration={1500} >VIEW MY WORK</Link>
+          <Link  to="Applications" spy={true} smooth={true} duration={1500} >VIEW MY WORK</Link>
         </Button>
         <Button className={style.aboutMeBtn} btnType="AboutMeBtn">
-          <Link activeClass="active" className="contactMe" to="contactMe" spy={true} smooth={true} duration={1500} >CONTACT ME</Link>
+          <Link activeClass="active" className="contactMe" to="contactMe" smooth={true} duration={1500}>CONTACT ME</Link>
         </Button>
       </div>
     </div>

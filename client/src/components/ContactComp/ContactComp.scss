@@ -41,3 +41,22 @@
     margin: 25px auto;
   }
 }
+
+@media (min-width: 500px) {
+  .ContactCompContainer {
+    h2 {
+      font-size: 350%;
+      margin: 30px;
+      padding: 50px;
+      // margin: 20px;
+      // text-align: right;
+    }
+
+    p {
+      border: 1px solid red;
+      padding: 20px;
+      margin: 50px auto;
+      width: 50vh;
+    }
+  }
+}

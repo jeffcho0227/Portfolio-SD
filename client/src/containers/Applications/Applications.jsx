@@ -1,5 +1,5 @@
 import React from 'react';
-import ApplicationComp from '../../components/Application/ApplicationComp.jsx';
+import ApplicationCards from '../../components/ApplicationCards/ApplicationCards.component.jsx';
 import TitleBlock from '../../components/UI/TitleBlock/TitleBlock.jsx';
 import style from './Applications.scss';
 import Data from '../../../dist/assets/Data/Data.js';
@@ -9,8 +9,9 @@ const Applications = () => {
     <div className={style.ApplicationContainer}>
       <TitleBlock>APPLICATIONS</TitleBlock>
       <div>
-        {Data.map((app, idx) => {
-          return <ApplicationComp app={app} key={idx} num={idx}/>
+        {Data.map((applications, idx) => {
+          console.log(applications)
+          return <ApplicationCards applications={applications} key={idx}/>
         })}
       </div>
     </div>

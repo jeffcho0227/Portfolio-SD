@@ -7,3 +7,11 @@
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+@media (min-width: 500px) {
+  .Backdrop {
+    width: 100vh;
+    height: 100vh;
+    // z-din
+  }
+}
