@@ -29,7 +29,7 @@
     "express": "^4.16.4",
     "file-loader": "^4.2.0",
     "image-webpack-loader": "^6.0.0",
-    "mongoose": "^5.5.2",
+    "mongoose": "^5.7.5",
     "node-sass": "^4.12.0",
     "nodemon": "^1.18.11",
     "react": "^16.8.6",
